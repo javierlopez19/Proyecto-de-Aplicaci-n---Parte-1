@@ -10,7 +10,7 @@ namespace Proyecto1_Parte2
 
             Console.ForegroundColor = ConsoleColor.Cyan;
 
-            Console.WriteLine(" SMARTPARK - REGISTRO INICIAL ");
+            Console.WriteLine(" \nSMARTPARK - REGISTRO INICIAL ");
 
             Console.ResetColor();
 
@@ -90,7 +90,7 @@ namespace Proyecto1_Parte2
                 Console.WriteLine();
                 Console.ForegroundColor = ConsoleColor.Cyan;
 
-                Console.WriteLine(" SMARTPARK - MENÚ ");
+                Console.WriteLine(" \nSMARTPARK - MENÚ ");
 
                 Console.WriteLine(" 1. Crear ticket de entrada ");
                 Console.WriteLine(" 2. Registrar salida y cobro ");
@@ -316,7 +316,7 @@ namespace Proyecto1_Parte2
 
                     Console.ForegroundColor = ConsoleColor.Cyan;
 
-                    Console.WriteLine(" ESTADO DEL PARQUEO ");
+                    Console.WriteLine(" \nESTADO DEL PARQUEO ");
             
                     Console.ResetColor();
                     Console.WriteLine($"  Capacidad total    : {capacidadParqueo} espacios");
